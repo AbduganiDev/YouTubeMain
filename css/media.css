@@ -1,0 +1,483 @@
+@media screen and (min-width: 220px) and (max-width: 500px) {
+    nav {
+        width: 100%;
+    }
+    nav img {
+        width: 15px;
+    }
+    nav .logo {
+        width: 45px;
+    }
+    nav .userImg {
+        width: 25px;
+    }
+    nav .voiceImg {
+        width: 20px;
+    }
+
+    nav .box-search {
+        width: 70px;
+        height: 20px;
+    }
+    nav .box-search .searchImg {
+        width: 10px;
+        margin-left: .2em;
+    }
+    nav .box-search input {
+        font-size: 9px;
+    }
+    nav .voiceImg {
+        width: 15px;
+        margin-right: 3px;
+    }
+    nav .nav-right img {
+        margin-right: 5px;
+    }
+    .nav-right-box {
+        width: 120px;
+        padding: .3em 0;
+        top: 30px;
+        left: -100px;
+    }
+    .nav-right-box p {
+        font-size: 9px;
+    }
+    .nav-right-box img {
+        width: 15px;
+    }
+    .nav-rigth-tv {
+        width: 150px;
+        top: 30px;
+        left: -115px;
+    }
+    .nav-rigth-tv p {
+        font-size: 9px;
+    }
+
+    /* Notification */
+
+    .nav-right-notification {
+        width: 220px;
+        position: absolute;
+        top: 30px;
+        left: -170px;
+    }
+    .nav-right-notification-boxOne {
+        padding: .5em;
+        margin-bottom: 10px;
+    }
+    .nav-right-notification-boxOne p {
+        font-size: 10px;
+    }
+    
+    .nav-right-mfaktor {
+        margin-bottom: 8px;
+    }
+    
+    .nav-right-mfaktor img {
+        width: 30px;
+    }
+    .nav-right-mfaktor .hd1 {
+        width: 60px;
+        margin-left: 5px;
+        margin-right: 40px;
+    }
+    
+    .nav-right-mfaktorIn p {
+        font-size: 9px;
+        line-height: 1.2;
+        margin-bottom: 3px;
+    }
+    .nav-right-mfaktorIn span {
+        font-size: 7px;
+    }
+
+    /* Account boxmini */
+
+    .nav-right-account {
+        width: 230px;
+        position: absolute;
+        padding: .5em 0;
+        top: 0px;
+        left: -175px;
+        /* display: block; */
+    }
+    .nav-right-accountBox {
+        padding-bottom: 12px;
+    }
+    .nav-right-accountBox img {
+        width: 35px;
+    }
+    .nav-right-accountBox-info p {
+        font-size: 13px;
+    }
+    .nav-right-accountBox-info span {
+        font-size: 13px;
+    }
+    .nav-right-accountBox-info p a {
+        font-size: 13px;
+    }
+    
+    .nav-right-account-icon p {
+        font-size: 13px;
+    }
+    .nav-right-account-icon i {
+        margin-right: 15px;
+        font-size: 1em;
+    }
+
+    .sidebar {
+        width: 150px;
+        height: calc(100% - 70px);
+    }
+    .sidebar-list p {
+        font-size: 9px;
+    }
+    .sidebar-list img {
+        margin-right: 7px;
+    }
+    .sidebar-list a {
+        padding: .3em .5em;
+    }
+    .sideBarWidth {
+        width: 50px;
+    }
+    .sideBarWidth a p {
+        display: block;
+    }
+    .sideBarWidth a img {
+        width: 10px;
+        margin: 0;
+    }
+
+    .activety {
+        display: block;
+    }
+    /* Content video */
+
+    .content-video {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-video-live {
+        margin-left: 30%;
+        margin-bottom: 15px;
+    }
+    .content-video-info img {
+        width: 25px;
+        margin-right: 4px;
+        margin-left: 3px;
+    }
+    .content-info-lab h4 {
+        font-size: 10px;
+        padding-bottom: 3px;
+        padding-top: 8px;
+    }
+    .content-info-lab p {
+        font-size: 10px;
+        padding-bottom: 1px;
+    }
+
+}
+
+
+@media screen and (max-width: 1200px) {
+    .sidebar {
+        width: 190px;
+    }
+    .sidebar-list p {
+        font-size: 14px;
+    }
+    .sidebar-list img {
+        margin-right: 10px;
+    }
+    .sidebar-list a {
+        padding: .5em .8em;
+    }
+    .sideBarWidth {
+        width: 70px;
+    }
+    .sideBarWidth a p {
+        display: none;
+    }
+    .sideBarWidth a img {
+        width: 25px;
+    }
+
+
+    .content {
+        width: 100%;
+        margin-left: 18%;
+    }
+    .content-video {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-video-live {
+        width: 250px; 
+    }
+    .content-video-live {
+        margin-left: 10%;
+        margin-bottom: 15px;
+    }
+    .content-video-info img {
+        width: 35px;
+        margin-right: 8px;
+        margin-left: 5px;
+    }
+    .content-info-lab h4 {
+        font-size: 12px;
+        padding-bottom: 3px;
+        padding-top: 8px;
+    }
+    .content-info-lab p {
+        font-size: 12px;
+        padding-bottom: 1px;
+    }
+
+
+    
+}
+@media screen and (min-width: 501px) and (max-width: 700px) {
+    nav .logo {
+        width: 85px;
+    }
+    nav .userImg {
+        width: 35px;
+    }
+    nav .box-search {
+        width: 150px;
+        height: 30px;
+    }
+    nav .box-search .searchImg {
+        width: 20px;
+        margin-left: .2em;
+    }
+    nav .box-search input {
+        font-size: 12px;
+    }
+    nav .voiceImg {
+        width: 25px;
+        margin-right: 5px;
+    }
+    nav .nav-right img {
+        margin-right: 7px;
+    }
+    .nav-right-box {
+        width: 170px;
+        padding: .3em 0;
+        top: 30px;
+        left: -150px;
+    }
+    .nav-right-box p {
+        font-size: 12px;
+    }
+    .nav-right-box img {
+        width: 20px;
+    }
+    .nav-rigth-tv {
+        width: 170px;
+        top: 30px;
+        left: -155px;
+    }
+    .nav-rigth-tv p {
+        font-size: 12px;
+    }
+   
+    .nav-right-account {
+        width: 280px;
+        position: absolute;
+        padding: .5em 0;
+        top: 0px;
+        left: -175px;
+        /* display: block; */
+    }
+    .nav-right-accountBox {
+        padding-bottom: 13px;
+    }
+    .nav-right-accountBox img {
+        width: 35px;
+    }
+    .nav-right-accountBox-info p {
+        font-size: 13px;
+    }
+    .nav-right-accountBox-info span {
+        font-size: 13px;
+    }
+    .nav-right-accountBox-info p a {
+        font-size: 13px;
+    }
+    
+    .nav-right-account-icon p {
+        font-size: 13px;
+    }
+    .nav-right-account-icon i {
+        margin-right: 15px;
+        font-size: 1em;
+    }
+
+    .nav-right-notification {
+        width: 380px;
+        position: absolute;
+        top: 30px;
+        left: -230px;
+    }
+    .nav-right-notification-boxOne {
+        padding: .5em;
+        margin-bottom: 10px;
+    }
+    .nav-right-notification-boxOne p {
+        font-size: 12px;
+    }
+    .nav-right-mfaktor img {
+        width: 35px;
+    }
+    .nav-right-mfaktor .hd1 {
+        width: 60px;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    .nav-right-mfaktor p {
+        font-size: 10px;
+    }
+
+
+
+    .content {
+        width: 85%;
+        margin-left: 30%;
+    }
+    .content-video {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-video-live {
+        width: 400px; 
+    }
+    .content-video-live {
+        margin-left: 10%;
+        margin-bottom: 15px;
+    }
+    .content-video-info img {
+        width: 35px;
+        margin-right: 8px;
+        margin-left: 5px;
+    }
+    .content-info-lab h4 {
+        font-size: 12px;
+        padding-bottom: 3px;
+        padding-top: 8px;
+    }
+    .content-info-lab p {
+        font-size: 12px;
+        padding-bottom: 1px;
+    }
+    .sideBarWidth ~ .content {
+        margin-left: 5%;
+    }
+    .sideBarWidth ~ .content .content-video-live {
+        width: 500px;
+    }
+
+    
+}
+
+
+@media screen and (min-width: 701px) and (max-width: 1000px) {
+    nav .box-search {
+        width: 180px;
+        height: 35px;
+    }
+    nav .box-search .searchImg {
+        width: 25px;
+        margin-left: .2em;
+    }
+    nav .box-search input {
+        font-size: 14px;
+    }
+
+    .nav-right-account {
+        width: 320px;
+        position: absolute;
+        padding: .5em 0;
+        top: 0px;
+        left: -175px;
+        /* display: block; */
+    }
+    .nav-right-accountBox {
+        padding-bottom: 13px;
+    }
+    .nav-right-accountBox img {
+        width: 35px;
+    }
+    .nav-right-accountBox-info p {
+        font-size: 14px;
+    }
+    .nav-right-accountBox-info span {
+        font-size: 14px;
+    }
+    .nav-right-accountBox-info p a {
+        font-size: 14px;
+    }
+    
+    .nav-right-account-icon p {
+        font-size: 14px;
+    }
+    .nav-right-account-icon i {
+        margin-right: 15px;
+        font-size: 1em;
+    }
+
+    .nav-right-notification {
+        width: 380px;
+        position: absolute;
+        top: 45px;
+        left: -230px;
+    }
+    .nav-right-notification-boxOne {
+        padding: .5em;
+        margin-bottom: 10px;
+    }
+    .nav-right-notification-boxOne p {
+        font-size: 12px;
+    }
+    .nav-right-mfaktor img {
+        width: 35px;
+    }
+    .nav-right-mfaktor .hd1 {
+        width: 60px;
+        margin-left: 5px;
+        margin-right: 10px;
+    }
+    .nav-right-mfaktor p {
+        font-size: 10px;
+    }
+    .content {
+        width: 85%;
+    }
+    .content-video {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .content-video-live {
+        width: 250px; 
+    }
+    .content-video-live {
+        margin-left: 5%;
+        margin-bottom: 15px;
+    }
+    .content-video-info img {
+        width: 35px;
+        margin-right: 8px;
+        margin-left: 5px;
+    }
+    .content-info-lab h4 {
+        font-size: 12px;
+        padding-bottom: 3px;
+        padding-top: 8px;
+    }
+    .content-info-lab p {
+        font-size: 12px;
+        padding-bottom: 1px;
+    }
+}

@@ -1,0 +1,357 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #5a5a5a;
+}
+
+img {
+    cursor: pointer;
+}
+
+.flex-div {
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    justify-content: space-between;
+    padding: .3em .8em;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+nav img {
+    width: 35px;
+}
+nav .logo {
+    width: 130px;
+}
+
+nav .searchImg {
+    width: 25px;
+}
+
+nav .nav-left img {
+    margin-right: 15px;
+}
+
+nav .box-search {
+    width: 500px;
+    height: 40px;
+    border: 1px solid #2b2b2b;
+    display: flex;
+    align-items: center;
+    background-color: #F8F8F8;
+    margin-right: 15px;
+}
+nav .box-search input {
+    width: 85%;
+    height: 100%;
+    padding: 0 .5em;
+    border: 0;
+    background-color: #fff;
+    border-right: 1px solid #2b2b2b;
+    outline: none;
+}
+nav .box-search .searchImg {
+    margin-left: 1.5em;
+}
+nav .voiceImg {
+    width: 28px;
+}
+nav .nav-right img {
+    margin-right: 15px;
+}
+nav .userImg {
+    width: 55px;
+    margin-right: 0;
+    border-radius: 50%;
+}
+
+nav .nav-right {
+    position: relative;
+}
+.nav-right-box {
+    width: 200px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: absolute;
+    padding: .5em 0;
+    top: 60px;
+    left: 0;
+    display: none;
+}
+.nav-right-box p {
+    font-size: 13px;
+}
+.nav-right-box img {
+    width: 25px;
+}
+.right-box-play {
+    padding: .5em;
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.right-box-play:hover {
+    background-color: #9b9797;
+}
+.right-box-dot {
+    padding: .5em;
+}
+.right-box-dot:hover {
+    cursor: pointer;
+    background-color: #9b9797;
+}
+
+
+
+/* YouTube Music */
+.nav-rigth-tv {
+    width: 250px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: absolute;
+    padding: .5em 0;
+    top: 60px;
+    left: -170px;
+    display: none;
+}
+.nav-rigth-tv p {
+    font-size: 13px;
+}
+.nav-rigth-tv .nav-right-youtv {
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 10px;
+    cursor: pointer;
+}
+.nav-right-youMusic {
+    margin: .8em 0;
+    border-bottom: 1px solid #bdbdbd;
+    padding-bottom: 10px;
+}
+.nav-right-youMusic .nav-right-musicOne {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+.nav-right-youMusic .nav-right-musicTwo:hover, .nav-right-youMusic .nav-right-musicOne:hover, .nav-right-youtv:hover {
+    background-color: #bdbdbd;
+    cursor: pointer;
+} 
+.nav-right-last:hover {
+    background-color: #bdbdbd;
+}
+
+/* Notification */
+
+.nav-right-notification {
+    width: 600px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: absolute;
+    padding: .5em 0;
+    top: 0px;
+    left: -500px;
+    display: none;
+}
+.nav-right-notification-boxOne {
+    justify-content: space-between;
+    padding: 1em 1em;
+    border-bottom: 1px solid #bdbdbd;
+    margin-bottom: 20px;
+}
+.nav-right-notification-boxOne p {
+    font-size: 24px;
+}
+
+.nav-right-mfaktor {
+    margin-bottom: 15px;
+}
+
+.nav-right-mfaktor img {
+    width: 60px;
+    border-radius: 50%;
+}
+.nav-right-mfaktor .hd1 {
+    width: 90px;
+    margin-left: 15px;
+    margin-right: 120px;
+    border-radius: 0;
+}
+
+.nav-right-mfaktorIn p {
+    line-height: 1.3;
+    margin-bottom: 10px;
+}
+.nav-right-mfaktorIn span {
+    color: #9b9797;
+    font-size: 12px;
+}
+
+/* Account Box */
+.nav-right-account {
+    width: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #fff;
+    position: absolute;
+    padding: .5em 0;
+    top: 0px;
+    left: -260px;
+    display: none;
+}
+.nav-right-accountBox {
+    padding: .5em .8em;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #7e7b7b;
+}
+.nav-right-accountBox img {
+    width: 65px;
+    border-radius: 50%;
+}
+.nav-right-accountBox-info p {
+    font-size: 22px;
+    padding-bottom: 5px;
+}
+.nav-right-accountBox-info span {
+    font-size: 18px;
+    color: #9b9797;
+}
+.nav-right-accountBox-info p a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(23, 240, 222);
+}
+
+.nav-right-account-icon {
+    padding: .5em .5em;
+}
+.nav-right-account-icon:hover {
+    cursor: pointer;
+    background-color: #bdbdbd;
+}
+.nav-right-account-icon p {
+    font-size: 18px;
+}
+.nav-right-account-icon i {
+    margin-right: 20px;
+    font-size: 2em;
+}
+
+/* Sidebar section */
+
+.sidebar {
+    width: 15%;
+    height: calc(100% - 70px);
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+}
+
+.sidebar-list {
+    padding-top: 1em;
+}
+
+.sidebar-list hr {
+    width: 100%;
+    height: .5px;
+    background-color: #bdbdbd;
+}
+.sidebar-list a img {
+    width: 20px;
+    margin-right: 20px;
+}
+.sidebar-list a {
+    display: flex;
+    align-items: center;
+    margin: .8em 0;
+    width: 100%;
+    padding: .5em 1em;
+}
+
+.sidebar-list a:hover {
+    cursor: pointer;
+    background-color: #bdbdbd;
+}
+
+.main {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Content */
+.content {
+    width: 85%;
+    height: calc(100% - 70px);
+    background-color: #bdbdbd;
+    padding: 1em;
+    margin-left: 15%;
+}
+.content-video {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.content-video-live {
+    width: 250px; 
+}
+.content-video-live iframe {
+    width: 100%;
+}
+.content-video-live img {
+    width: 100%;
+}
+.content-video-info {
+    display: flex;
+    align-items: center;
+}
+.content-video-info img {
+    width: 55px;
+    border-radius: 50%;
+    margin-right: 7px;
+    margin-left: 5px;
+}
+.content-info-lab {
+    padding: 0 .5em;
+}
+.content-info-lab h4 {
+    font-size: 12px;
+    padding-bottom: 3px;
+    padding-top: 8px;
+}
+.content-info-lab p {
+    font-size: 12px;
+    line-height: 1.2;
+    color: #7e7b7b;
+    padding-bottom: 2px;
+}
+
+
+
+
+
+.activety {
+    display: block;
+}
+.sideBarWidth {
+    width: 5%;
+}
+.sideBarWidth a p {
+    display: none;
+}
+.sideBarWidth a img {
+    width: 30px;
+}
+.sideBarWidth ~ .content {
+    width: calc(100% - 5%);
+    margin-left: 5%;
+}
+.sideBarWidth ~ .content .content-video-live {
+    width: 300px;
+}
